@@ -1,5 +1,5 @@
-src
-===
+predictor_api_client
+====================
 
 .. toctree::
    :maxdepth: 4
