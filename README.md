@@ -2,7 +2,7 @@
 
 This package provides a [PyPi-installable](https://pypi.org/project/predictor-api-client/) lightweight client application for the [Predictor API](https://github.com/BDALab/predictor-api/) RESTFull server application. The package implements `PredictorApiClient` class enabling fast and easy method-based calls to all endpoints accessible on the API. To make working with the client a piece of cake, it provides full-documented example scripts for each of the supported endpoints. For more information about the Predictor API, please read the official [readme](https://github.com/BDALab/predictor-api#readme) and [documentation](https://github.com/BDALab/predictor-api/tree/master/docs).
 
-_The full programming sphinx-generated docs can be seen in `docs/`_.
+_The full programming sphinx-generated docs can be seen in the [official documentation](https://predictor-api-client.readthedocs.io/en/latest/)_.
 
 **Endpoints**:
 1. predictor endpoints (`/predict` and `/predict_proba`)
