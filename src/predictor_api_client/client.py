@@ -377,7 +377,7 @@ class PredictorApiClient(object):
 
         # Log the prediction
         self.logger.info(
-            f"./{endpoint[(endpoint.rfind('/') + 1):].rstrip} ({response.status_code}) "
+            f"./{endpoint[(endpoint.rfind('/') + 1):]} ({response.status_code}) "
             f"data: {data}; "
             f"response: {response.json()}")
 
