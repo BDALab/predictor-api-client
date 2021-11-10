@@ -283,7 +283,7 @@ class PredictorApiClient(object):
             # ----------------------------------
             # 3. Re-call the prediction endpoint
             response = requests.post(
-                url=self.predict_endpoint,
+                url=endpoint,
                 json=data,
                 headers=get_header_with_access_token(response.get("access_token")),
                 verify=self.verify,
